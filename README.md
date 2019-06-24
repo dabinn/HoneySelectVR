@@ -1,11 +1,20 @@
-﻿# HoneySelectVR
+﻿# HoneySelectVR.RR
+- A 'Reverse Rotaion' version of Eusth's HoneySelectVR
+- Added multiple voices / positional sound fix base on ZerothAngel's code
+
+## Download
+The latest release:<br/>
+https://github.com/dabinn/HoneySelectVR/releases 
+
+
+--------
 
 This is an experimental mod for the trial edition of Honey Select that introduces VR capabilities for both the Vive and the Oculus Rift using OpenVR. It provides both a seated and a standing mode to be usable in any environment.
 
 
 ## Installation
 
-1. Download [the latest release](https://github.com/Eusth/HoneySelectVR/releases) and extract it into your *HoneySelectTrial* directory.
+1. Download the latest release and extract it into your *HoneySelectTrial* directory.
 2. Run *HoneySelectTrial_64VR.exe*
 3. Enjoy!
 
