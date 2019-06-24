@@ -61,6 +61,7 @@ namespace HoneySelectVR
                 }
                 VRManager.Create<HoneyInterpreter>(context);
                 VR.Manager.SetMode<HoneySeatedMode>();
+                VoiceShim.Inject();
             }
         }
 
@@ -86,9 +87,6 @@ namespace HoneySelectVR
                     _Effector.Reset();
                     _FXInitialized = true;
                 }
-
-                //SoundShim.Inject();
-                VoiceShim.Inject();
 
                 // [PLAY TOOL ANIMATIONS] Ver 1
                 var scene = GameObject.FindObjectOfType<HScene>();
